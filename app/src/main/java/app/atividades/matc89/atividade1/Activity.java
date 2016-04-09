@@ -20,7 +20,7 @@ public class Activity extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.web_view);
         if (myWebView != null) {
-            myWebView.loadUrl(site);
+            myWebView.loadUrl("http://" + site);
         }
     }
 }
